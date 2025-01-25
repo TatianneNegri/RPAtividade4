@@ -1,1 +1,22 @@
+# Padrões de Projeto Implementados
 
+1. Repository Pattern
+   - **Objetivo:** Centralizar e isolar o acesso ao banco de dados.
+   - **Implementação:**
+     - ProdutoRepository: Gerencia as operações do modelo Produto.
+     - EstoqueRepository: Gerencia as operações do modelo Estoque.
+
+2. Factory Pattern
+   - **Objetivo:** Simplificar e padronizar a criação de objetos Estoque.
+   - **Implementação:**
+     - EstoqueFactory: Responsável por criar instâncias de objetos Estoque com valores padrão.
+
+Esses padrões foram aplicados no projeto para melhorar a organização do código, facilitar manutenções futuras e possibilitar a troca do banco de dados sem impacto direto no restante da aplicação.
+
+Link do projeto original: https://github.com/HenriqueSouzaa/Alone_Market/tree/master
+
+Alunos:
+Dorival Soareas da Silva Junior - 2384965
+Leandro Girotto Cabrini Junior - 2383403
+Ricardo Daniel Gayoso Torrez - 2372657
+João Pedro Cervino Barbosa - 2372576
