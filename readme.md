@@ -9,7 +9,7 @@
 O projeto consiste em um jogo da forca desenvolvido em JavaScript, refatorado para utilizar padrões de projeto que melhoram a organização, a reutilização e a manutenção do código.
 
 ## Fonte do Código
-O código original foi modificado para aplicar boas práticas de design e facilitar a escalabilidade. A lógica principal foi reorganizada para separar as responsabilidades de verificação de letras e atualização da interface.
+O código original foi modificado para aplicar boas práticas de design e facilitar a escalabilidade. A lógica principal foi reorganizada para separar as responsabilidades de verificação de letras e atualização da interface. o código modificado pode ser encontrado nesse repositorio com o nome `scripts.js`, já o código original é encontrado no repositorio [jogo-da forca](https://github.com/AndressaDaCosta/jogo-da-forca)
 
 ## Padrões de Projeto Utilizados
 
