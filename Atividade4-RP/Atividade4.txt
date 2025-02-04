@@ -1,0 +1,34 @@
+Grupo:
+Júlia Cardozo Cavalcante - 2372584
+Eduardo Viega - 2386380
+
+Padrões de Projeto Utilizados
+
+1. Singleton
+
+Objetivo: Garantir que apenas uma instância da classe Parser seja criada e utilizada ao longo da execução do programa.
+
+Implementação:
+
+O construtor da classe Parser foi tornado privado.
+
+Um método getInstance() foi criado para garantir uma única instância da classe.
+
+2. Strategy
+
+Objetivo: Permitir que diferentes estratégias de leitura de arquivos possam ser utilizadas de forma intercambiável.
+
+Implementação:
+
+Criamos a interface ReadStrategy, que define um método read() para leitura do arquivo.
+
+Foram criadas duas implementações concretas:
+
+FullReadStrategy: Lê o conteúdo completo do arquivo.
+
+NonUnicodeReadStrategy: Lê apenas caracteres ASCII (sem Unicode).
+
+A classe Parser agora aceita uma estratégia de leitura, tornando a implementação mais modular e flexível.
+
+Esses padrões tornam o código mais reutilizável, testável e de fácil manutenção.
+
